@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
 
@@ -21,7 +23,7 @@
 .ofy-scr { overflow-y: scroll; }
 .ofy-aut { overflow-y: auto; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .of-vis-ns { overflow: visible; }
   .of-hid-ns { overflow: hidden; }
   .of-scr-ns { overflow: scroll; }
@@ -38,7 +40,7 @@
   .ofy-aut-ns { overflow-y: auto; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .of-vis-m { overflow: visible; }
   .of-hid-m { overflow: hidden; }
   .of-scr-m { overflow: scroll; }
@@ -55,7 +57,7 @@
   .ofy-aut-m { overflow-y: auto; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .of-vis-l { overflow: visible; }
   .of-hid-l { overflow: hidden; }
   .of-scr-l { overflow: scroll; }
