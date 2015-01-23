@@ -1,12 +1,12 @@
 {
   "name": "tachyons-overflow",
   "version": "0.3.0",
-  "style": "overflow.css",
+  "style": "tachyons-overflow.css",
   "homepage": "http://mrmrs.io/tachyons-overflow",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
