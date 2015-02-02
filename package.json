@@ -2,7 +2,7 @@
   "name": "tachyons-overflow",
   "version": "1.0.0",
   "style": "tachyons-overflow.css",
-  "homepage": "http://mrmrs.io/tachyons-overflow",
+  "homepage": "http://github.com/mrmrs/tachyons-overflow",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
