@@ -1,6 +1,6 @@
 {
   "name": "tachyons-overflow",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "style": "tachyons-overflow.css",
   "homepage": "http://github.com/mrmrs/tachyons-overflow",
   "description": "Performance based css module.",
