@@ -1,4 +1,4 @@
-# tachyons-overflow 1.2.0
+# tachyons-overflow 2.0.3
 
 Performance based css module.
 
