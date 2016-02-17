@@ -17,7 +17,7 @@
 .ofy-aut { overflow-y: auto; }
 @media screen and (min-width: 48em) {
  .of-vis-ns { overflow: visible; }
- .of-hid-ns, .oh { overflow: hidden; }
+ .of-hid-ns { overflow: hidden; }
  .of-scr-ns { overflow: scroll; }
  .of-aut-ns { overflow: auto; }
  .ofx-vis-ns { overflow-x: visible; }

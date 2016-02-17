@@ -1,10 +1,10 @@
-# tachyons-overflow 2.0.3
+# tachyons-overflow 2.0.4
 
 Performance based css module.
 
 #### Stats
 
-342 | 50 | 48
+341 | 49 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -75,7 +75,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .ofy-aut { overflow-y: auto; }
 @media screen and (min-width: 48em) {
  .of-vis-ns { overflow: visible; }
- .of-hid-ns, .oh { overflow: hidden; }
+ .of-hid-ns { overflow: hidden; }
  .of-scr-ns { overflow: scroll; }
  .of-aut-ns { overflow: auto; }
  .ofx-vis-ns { overflow-x: visible; }
