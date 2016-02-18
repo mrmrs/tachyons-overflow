@@ -1,10 +1,10 @@
-# tachyons-overflow 2.0.3
+# tachyons-overflow 3.0.0
 
 Performance based css module.
 
 #### Stats
 
-356 | 48 | 48
+347 | 48 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -77,43 +77,43 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .overflow-visible-ns { overflow: visible; }
  .overflow-hidden-ns { overflow: hidden; }
  .overflow-scroll-ns { overflow: scroll; }
- .overflow-overflow-autoverflow-ns { overflow: auto; }
+ .overflow-auto-ns { overflow: auto; }
  .overflow-x-visible-ns { overflow-x: visible; }
  .overflow-x-hidden-ns { overflow-x: hidden; }
  .overflow-x-scroll-ns { overflow-x: scroll; }
- .overflow-x-autoverflow-ns { overflow-x: auto; }
+ .overflow-x-auto-ns { overflow-x: auto; }
  .overflow-y-visible-ns { overflow-y: visible; }
  .overflow-y-hidden-ns { overflow-y: hidden; }
  .overflow-y-scroll-ns { overflow-y: scroll; }
- .overflow-y-autoverflow-ns { overflow-y: auto; }
+ .overflow-y-auto-ns { overflow-y: auto; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
  .overflow-scroll-m { overflow: scroll; }
- .overflow-overflow-autoverflow-m { overflow: auto; }
+ .overflow-auto-m { overflow: auto; }
  .overflow-x-visible-m { overflow-x: visible; }
  .overflow-x-hidden-m { overflow-x: hidden; }
  .overflow-x-scroll-m { overflow-x: scroll; }
- .overflow-x-autoverflow-m { overflow-x: auto; }
+ .overflow-x-auto-m { overflow-x: auto; }
  .overflow-y-visible-m { overflow-y: visible; }
  .overflow-y-hidden-m { overflow-y: hidden; }
  .overflow-y-scroll-m { overflow-y: scroll; }
- .overflow-y-autoverflow-m { overflow-y: auto; }
+ .overflow-y-auto-m { overflow-y: auto; }
 }
 @media screen and (min-width: 64em) {
  .overflow-visible-l { overflow: visible; }
  .overflow-hidden-l { overflow: hidden; }
  .overflow-scroll-l { overflow: scroll; }
- .overflow-overflow-autoverflow-l { overflow: auto; }
+ .overflow-auto-l { overflow: auto; }
  .overflow-x-visible-l { overflow-x: visible; }
  .overflow-x-hidden-l { overflow-x: hidden; }
  .overflow-x-scroll-l { overflow-x: scroll; }
- .overflow-x-autoverflow-l { overflow-x: auto; }
+ .overflow-x-auto-l { overflow-x: auto; }
  .overflow-y-visible-l { overflow-y: visible; }
  .overflow-y-hidden-l { overflow-y: hidden; }
  .overflow-y-scroll-l { overflow-y: scroll; }
- .overflow-y-autoverflow-l { overflow-y: auto; }
+ .overflow-y-auto-l { overflow-y: auto; }
 }
 ```
 
