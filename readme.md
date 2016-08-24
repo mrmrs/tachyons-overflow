@@ -91,7 +91,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .overflow-y-hidden { overflow-y: hidden; }
 .overflow-y-scroll { overflow-y: scroll; }
 .overflow-y-auto { overflow-y: auto; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .overflow-visible-ns { overflow: visible; }
  .overflow-hidden-ns { overflow: hidden; }
  .overflow-scroll-ns { overflow: scroll; }
@@ -105,7 +105,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .overflow-y-scroll-ns { overflow-y: scroll; }
  .overflow-y-auto-ns { overflow-y: auto; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
  .overflow-scroll-m { overflow: scroll; }
@@ -119,7 +119,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .overflow-y-scroll-m { overflow-y: scroll; }
  .overflow-y-auto-m { overflow-y: auto; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .overflow-visible-l { overflow: visible; }
  .overflow-hidden-l { overflow: hidden; }
  .overflow-scroll-l { overflow: scroll; }
