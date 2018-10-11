@@ -1,8 +1,8 @@
-# tachyons-overflow 4.0.5
+# tachyons-overflow 4.0.6
 
 Performance based css module.
 
-#### Stats
+### Stats
 
 347 | 48 | 48
 ---|---|---
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-overflow@4.0.5/css/tachyons-overflow.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-overflow@4.0.6/css/tachyons-overflow.min.css" />
 ```
 
 ##### Locally
